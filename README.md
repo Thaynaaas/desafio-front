@@ -1,5 +1,85 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+import  React , { Component } from  ' react ' ;
+
+importar  Cabecalho  de  ' ./componentes/cabecalho ' ;
+import  Inicio  from  ' ./componentes/inicio ' ;
+
+import  minion30  de  " ./imagens/minion30.jpg "
+
+import  minion  de  " ./imagens/minion.jpg "
+import  contato  de  ' ./componentes/contato ' ;
+import  Contato  de  ' ./componentes/contato ' ;
+import  menina  de  " ./imagens/menina.jpg "
+import  colecao2  de  " ./imagens/colecao2.jpg "
+import  guerreiro  de  " ./imagens/guerreiro.jpg "
+importe  Rodape  de  ' ./componentes/rodape ' ;
+
+class  App  estende o  componente {
+  render () {
+    retorno (
+      < div className = " App " >
+          < Cabecalho / >
+
+          < Inicio / >
+
+
+          < img src = {minion30} className = " teste " alt = " minion30 " altura = " 400px " largura = " 1900px "  / >
+          
+< p > < / p >
+< p > < / p >
+< p > < / p >
+          < img src = {minion} className = " teste " alt = " minion " altura = " 400px " largura = " 1900px "  / >
+
+          < div >
+          < div className = " texto do contentor-líquido-esquerdo bg-cinzento " >
+            < h2 > Os mais vistos < / h2 >
+            < div classNameName = " linha text-center " >
+                < div className = " col-sm-4 " >
+                    < div className = " miniatura " >
+                        < img src = {menina} alt = " menina "  / >
+                        < p > Minion menina < / p >
+                        < button className = ' btn btn-padrão pull-right ' type = ' enviar ' > Comprar < / button >
+
+                        < P > < strong > R $ 10 , 00 < / strong > < / p >
+
+                    < / div >
+                < / div >
+                < div className = " col-sm-4 " >
+                    < div className = " miniatura " >
+                        < img src = {colecao2} alt = " colecao "  / >
+                        < p > Coleção 9 mini - minions Carnaval < / p >
+                        < p > < / p >
+                        < P > < strong > R $  80 , 00 < / strong > < / p >
+                        < button className = ' btn btn-padrão pull-right ' type = ' enviar ' > Comprar < / button >
+
+                        < P > 4x de R $  20 , 00 Sem Juros < / p >
+                    < / div >
+                < / div >
+                < div className = " col-sm-4 " >
+                    < div className = " miniatura " >
+                        < img src = {guerreiro} alt = " guerreiro "  / >
+                        < p > Minions Guerreiro < / p >
+                        < button className = ' btn btn-padrão pull-right ' type = ' enviar ' > Comprar < / button >
+
+                        < P > < strong > R $ 10 , 00 < / strong > < / p >
+
+                    < / div >
+                < / div >
+            < / div >
+        < / div >
+        < / div >
+
+< Contato / >
+< Rodape / >
+      < / div >
+    );
+  }
+}
+
+exportar  App padrão  ;
+
+
 ## Available Scripts
 
 In the project directory, you can run:
